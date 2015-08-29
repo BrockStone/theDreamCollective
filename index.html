@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="dreamWebApp"> <!-- Angular Init -->
+	<head>
+		<!-- Site Info   -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="The Dream Collective: The Socially Commited Board Company" />
+		<meta name="keywords" content="Socially, Commited, Skateboards, Handcrafted, Pittsburgh, Empowerment" />
+		<meta name="Author" content="Brock J. Stone" />
+		
+		<!-- Title -->
+		<title>{{Page.title()}}</title>
+
+		<!-- Favicon / shortcut icon-->
+	
+		<!-- Fonts / typekit-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		
+		
+		<!-- BootStrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+		<!-- Styling -->
+		<link rel="stylesheet" type="text/css" href="style/dreamWebApp.css" />
+
+		<!-- Angular -->
+		<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.js'></script>
+    	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-route.js'></script>
+		
+	</head>
+	<body>
+	
+		<!-- Angular Templating -->
+        <div ng-view class="site-content">
+        	<!-- This is where my content will be injected -->
+        </div>
+
+
+		<footer>
+			
+		</footer>
+		
+		<!-- Mon Javascript Fantastique! -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/dreamWebApp.js"></script>
+
+	</body>
+</html>
